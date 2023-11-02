@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
 }
 
 .header {
@@ -64,7 +63,7 @@
   resize: none;
   font-size: 1.1rem;
   padding: 1rem 2rem 1rem 2rem;
-  width: 75vw;
+  width: 100vw;
   border-radius: 0.5rem;
   border: 1px solid #30373d;
   background: #0e1524;
@@ -214,8 +213,8 @@
 }
 
 .cloud {
-  width: 75vw;
-  height: 65vh;
+  width: 100vw;
+  height: 85vh;
   background: #0e1524;
   border-radius: 0.5rem;
   border: 1px solid #30373d;

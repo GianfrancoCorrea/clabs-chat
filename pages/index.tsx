@@ -96,26 +96,6 @@ useEffect(() => {
 
   return (
     <>
-      <Head>
-        <title>Chat UI</title>
-        <meta name="description" content="OpenAI interface" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className={styles.topnav}>
-        <div className={styles.navlogo}>
-          <Link href="/">Chat UI</Link>
-        </div>
-        <div className={styles.navlinks}>
-          <a
-            href="https://platform.openai.com/docs/models/gpt-4"
-            target="_blank"
-          >
-            Docs
-          </a>
-          
-        </div>
-      </div>
       <main className={styles.main}>
         <div className={styles.cloud}>
           <div ref={messageListRef} className={styles.messagelist}>
@@ -206,15 +186,6 @@ useEffect(() => {
                 )}
               </button>
             </form>
-          </div>
-          <div className={styles.footer}>
-            <p>
-              Powered by{" "}
-              <a href="https://openai.com/" target="_blank">
-                OpenAI
-              </a>
-              . 
-            </p>
           </div>
         </div>
       </main>
